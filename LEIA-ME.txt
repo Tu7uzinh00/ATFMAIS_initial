@@ -1,0 +1,27 @@
+ATF+ — versão pronta para publicação estática
+
+Abra index.html no navegador para visualizar. O projeto é estático nesta etapa e não precisa de instalação.
+
+Incluído nesta versão
+- Páginas responsivas para homepage, catálogo completo e endereço não encontrado.
+- Navegação adaptada para telas pequenas, com carrossel acessível e rolagem suave.
+- Imagens de catálogo otimizadas em WebP para reduzir o carregamento.
+- Abertura inspirada na referência com carrossel de fotos sobrepostas e pontos de navegação; seção de catálogo própria na homepage e página independente produtos.html, alimentadas por uma lista única em assets/catalog-data.js.
+- Página independente de produtos com uma grade visual, sem CTAs de venda.
+- Catálogo atualizado com as novas imagens de presentes para professores, lembrancinhas em potes, xícara personalizada, kits para o Dia dos Pais, broche magnético, bolsa de PVC e brindes para eventos. Também inclui papel sulfite A4.
+- Produtos com mais de uma foto exibem miniaturas clicáveis para alternar a imagem; novos exemplos podem ser adicionados pelo campo `gallery` em assets/catalog-data.js.
+- Cards apenas de apresentação, sem botão de ação em cada produto; o carrossel avança suavemente e pode ser pausado ao passar o cursor ou navegar por teclado.
+- Seções de personalização, kits, dúvidas e contato.
+- Formulário que prepara uma mensagem de orçamento para WhatsApp.
+- Aviso de privacidade indicando que os dados digitados não são armazenados.
+
+WhatsApp
+O botão flutuante e o formulário de orçamento estão conectados ao número informado pela ATF+: 55 81 99237-7709.
+
+Conteúdo pendente de validação pela ATF+
+Catálogo completo e categorias finais, preços, prazos, condições de entrega/retirada, fluxo de aprovação da arte, canais sociais e política de privacidade e informações reais da marca. Os exemplos exibidos usam as fotos compartilhadas; não foram inventados preços, avaliações ou prazos.
+
+Publicação
+Preparado para GitHub Pages. Extraia o conteúdo do ZIP na raiz de um repositório, envie para a branch main, e selecione GitHub Actions em Settings → Pages. O workflow em .github/workflows/pages.yml publica os arquivos do site; não há build ou instalação. O pacote ainda não foi enviado nem publicado. Após o primeiro deploy, copie o endereço exibido pelo GitHub para configurar URL canônica, sitemap.xml e prévia de compartilhamento.
+
+
